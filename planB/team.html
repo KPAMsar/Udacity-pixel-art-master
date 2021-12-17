@@ -1,0 +1,472 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <!-- title -->
+            <!----font icons-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+            rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+            rel="stylesheet">
+        <title>Ahava Development Initiative </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="author" content="Nerdysigns">
+         <meta name="description" content="Ahava Development Initiative (ADI) is a non profit organisation set up with the primary objective of championing a comprehensive approach to
+          tackling the causes & consequences of poverty, inequality & national rift.">
+
+         <meta name="keywords" content="Ahava Development Initiative (ADI) is a non profit organisation set up with the primary objective of championing a comprehensive approach to tackling the causes & consequences of poverty, inequality & national rift. We are contributing towards eradicating poverty and building an inclusive society, through shifting the human understanding toward
+         compassion and connection, sharing simple acts of love.">
+       
+        <!---font style-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+         
+
+      
+        <!-- favicon -->
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <!-- animation -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!---flaticons-->
+        <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- et line icon -->
+        <link rel="stylesheet" href="css/et-line-icons.css" />
+        <!-- font-awesome icon -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <!-- themify icon -->
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <!-- swiper carousel -->
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <!-- justified gallery -->
+        <link rel="stylesheet" href="css/justified-gallery.min.css">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+        <!-- revolution slider -->
+        <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+        <!-- bootsnav -->
+        <link rel="stylesheet" href="css/bootsnav.css">
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        <style type="text/css">
+        	 #showmore, #moree {display: none;}
+        highlights .swiper-button-next-news,
+.highlights .swiper-button-prev-news {
+    float: left;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.highlights .swiper-button-prev-news,
+.highlights .swiper-button-next-news {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.highlights span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #b4936b;
+}
+
+.highlights .swiper-container {
+  padding-bottom: 28px;
+}
+
+.highlights .swiper-slide {
+}
+
+.highlights .swiper-slide-post h3 {
+  font-size: 30px;
+  line-height: 30px;
+  /*text-transform: uppercase;*/
+  color:#fff!important;
+  padding-left:15px;
+}
+.highlights .swiper-slide-pos h3 {
+  color:#fff;
+}
+
+.highlights .swiper-slide-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow:hidden;
+    height: 340px;
+}
+
+.abs_link {
+    position: absolute;
+    top: 0;
+    height: 340px;
+    width:100%;
+    left: 0;
+    z-index:11;
+}
+
+.highlights-article{
+    left:0;
+  }
+
+  .highlights-article {
+    width: 100% !important;
+    left: 15px;
+    bottom: 0;
+    position: absolute;
+}
+
+@media only screen and (min-width: 1100px) {
+
+  .highlights-article {
+    width: 500px;
+    float: right;
+    position: absolute;
+    right: 0;
+    left: initial !important;
+    bottom: 0;
+  }
+}
+        </style>
+        <script type="text/javascript">
+
+function myFunctionn() {
+  var dots = document.getElementById("dotss");
+  var moreText = document.getElementById("moree");
+  var btnText = document.getElementById("myBtnn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "<span class='text-medium text-deep-pink'>Read More&nbsp;&nbsp;<i class='fa fa-arrow-right mr-0' aria-hidden='true'></i></span>";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "<span class='text-medium text-deep-pink'>Read Less&nbsp;&nbsp;<i class='fa fa-arrow-left mr-0' aria-hidden='true'></i></span>";
+    moreText.style.display = "inline";
+  }
+}
+
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("showmore");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "contents";
+    btnText.innerHTML = "<span class='text-medium text-deep-pink'>See More&nbsp;&nbsp;<i class='fa fa-arrow-right mr-0' aria-hidden='true'></i></span>";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "<span class='text-medium text-deep-pink'>See Less&nbsp;&nbsp;<i class='fa fa-arrow-left mr-0' aria-hidden='true'></i></span>";
+    moreText.style.display = "contents";
+  }
+}
+
+        </script>
+    </head>
+    <body>
+         <header class="no-sticky">
+            <!-- start navigation -->
+            <nav class="navbar full-width-pull-menu navbar-top-scroll no-border-top no-transition" style="background-color:white;">
+                <!-- start navigation panel -->
+                <div class="container nav-header-container height-100px sm-height-70px sm-padding-15px-lr ">
+                    <!-- start logo -->
+                    <div class="col-auto pl-0"><a href="index.html" title="Ahava Development Initiative" class="logo"><img src="img/logo.png" data-rjs="img/logo@2x.png" alt="Ahava Development Initiative"></a></div>
+                    <!-- end logo -->
+                    <!-- start main menu -->
+                    <div class="col-auto pr-0">
+                        <div class="menu-wrap full-screen d-flex">
+                            <div class="col-md-8 p-0 d-none d-md-block">
+
+                            </div>
+                            <div class="col-md-4 p-0 bg-dark full-screen">
+                                <div class="position-absolute height-100 width-100 overflow-auto">
+                                    <div class="d-table height-100 width-100">
+                                        <div class="d-table-cell height-100 width-100 vertical-align-middle padding-fourteen-lr
+                                         alt-font link-style-2 md-padding-seven-lr sm-padding-15px-lr">
+                                            <!-- start menu -->
+                                            <ul class="font-weight-600 sm-no-padding-left">
+                                                <!-- start menu item -->
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12 text-center sm-margin-30px-bottom md-margin-30px-bottom" >
+                                                            <input type="submit" class="btn btn-transparent-donate btn-large btn-rounded margin-20px-top" value="Donate Now" name="Donate">
+                                                        </div>
+                                                        <!-- <div class="col-6 text-center sm-margin-30px-bottom md-margin-30px-bottom">
+                                                            <input type="submit" class="btn btn-transparent-donate btn-large btn-rounded margin-20px-top" value="volunteer" name="Donate">
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                                
+                                                <li class="dropdown">
+                                                    <a href="index.html">Home</a>
+                                                    <hr>
+                                                </li>
+                                                <!-- end menu item -->
+                                                <!-- start menu item -->
+                                                <!-- <li><a href="#whoweare" title="Who We Are" class="inner-link">Who We Are</a></li>
+                                                <hr> -->
+                                                <!-- end menu item -->
+                                                <li class="dropdown">
+                                                    <a data-toggle="dropdown" class="dropdown-toggle">About Us</a>
+
+                                                    <ul class="dropdown-menu font-weight-300">
+                                                       <li><a href="who-we-are.html" title="">Who we are</a></li>
+
+                                                       <li><a href="what-we-do.html" title="">What we do</a></li>
+                                                       <li><a href="vision&mission.html" title="">Vision & Mission</a></li>
+
+                                                       <li><a href="team.html" title="">Team</a></li>
+                                                    </ul>
+                                                </li>
+                                                <hr>
+
+
+                                               <li class="dropdown">
+                                                    <a data-toggle="dropdown" class="dropdown-toggle">Campaign & Advocacy</a>
+                                                    <hr>
+                                                    <ul class="dropdown-menu font-weight-300">
+                                                       <li><a href="ahava-love.html" title="Next Program">Ahava Love in Deeds</a></li>
+
+                                                       <li><a href="social-fund-management.html" title="">Ahava Social Fund Management</a></li>
+
+                                                       <li><a href="patroitism.html" title="">Ahava Patriotism and peacebuilding program </a></li>
+
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" >News & Update</a></li>
+                                                <hr>
+                                                <li><a href="contact-us.html" >Contact Us</a></li>
+                                                <hr>
+                                                <li><a href="#" >Volunteer</a></li>
+                                                <hr>
+                                            </ul>
+                                            <!-- end menu -->
+                                            <!-- start social links -->
+                                            <div class="margin-fifteen-top padding-35px-left sm-no-padding-left">
+                                                 <div class="icon-social-medium margin-three-bottom">
+                                                    <p2 class="text-white">Follow us :</p2>
+                                                    <a href="#" target="_blank" class="text-white text-deep-pink-hover margin-one-lr"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                                    <a href="#" target="_blank" class="text-white text-deep-pink-hover margin-one-lr"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                                    <a href="#" target="_blank" class="text-white text-deep-pink-hover margin-one-lr"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                                    <a href="#" target="_blank" class="text-white text-deep-pink-hover margin-one-lr"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                                    <a href="mailto:info@ahavadevinit.org" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fab fa-envelope" aria-hidden="true"></i></a>
+                                                    
+                                                </div>
+                                                
+                                               
+                                            </div>
+                                            <!-- start social links -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="close-button-menu" id="close-button"></button>
+                            </div>
+                        </div>
+                        <!-- end main menu -->
+                        <button class="navbar-toggler mobile-toggle slider_txt" type="button" id="open-button" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+                    </div>
+                </div>
+                <!-- end navigation panel -->
+            </nav>
+            <!-- end navigation -->
+        </header>
+        <!-- end header --> 
+        <!-- start slider section -->
+        
+          
+        <section class="wow fadeIn pb-0 position-relative parallax sm-background-image-center" data-stellar-background-ratio="0.5" style="background-image:url('img/bg.jpg');">
+            <div class="container" id="whoweare">
+                
+            </div>
+            <div class="container" >
+            	<div class="row justify-content-center margin-40px-top">
+                    <div class="col-12 col-xl-8 col-lg-9 text-extra-dark-gray text-center last-paragraph-no-margin">
+                        <h5 class="alt-font  font-weight-600">Our Team</h5>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="row justify-content-center margin-six-bottom">
+                            <div class="col-12 col-xl-9 col-lg-9 text-extra-dark-gray margin-six-bottom text-center last-paragraph-no-margin">
+                                <p class="width-100 mx-auto text-medium font-weight-400 d-inline-block sm-width-100"></p>
+                            </div>
+                             <div class="row align-items-center margin-five-bottom">
+                            <div class="col-12 col-lg-4 text-center md-margin-30px-bottom ">
+                                <img src="#" alt="Nadoo Gyula's Picture" class="border-radius-6 w-100">
+                            </div> 
+                            <div class="col-12 col-lg-8 padding-eight-lr text-center text-lg-left lg-padding-nine-right md-padding-15px-lr wow fadeInRight" data-wow-delay="0.2s">
+                                <h6 class="alt-font text-medium font-weight-600  mb-0">Nadoo Gyula</h6>
+                                <p class="text-small">Founder</p>
+                                <p class="width-90 mx-auto text-medium font-weight-400 d-inline-block sm-width-90"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row margin-five-bottom align-items-center">
+                            <div class="col-12 col-lg-4 text-center md-margin-30px-bottom wow fadeInLeft">
+                                <img src="#" alt="Esther Alesi's picture" class="border-radius-6 w-100">
+                            </div> 
+                            <div class="col-12 col-lg-8 padding-eight-lr text-center text-lg-left lg-padding-nine-right md-padding-15px-lr wow fadeInRight" data-wow-delay="0.2s">
+                                <h6 class="alt-font text-medium font-weight-600 mb-0">Esther Alesi</h6>
+                                <p class="text-small">Co-founder</p>
+                                <p class="width-90 mx-auto text-medium font-weight-400 d-inline-block 
+                                sm-width-90">
+                                     </p>
+                            </div>
+        
+                            
+                    </div>
+                    <div class="row">
+                        <div class="row margin-five-bottom align-items-center">
+                            <div class="col-12 col-lg-4 text-center md-margin-30px-bottom wow fadeInLeft">
+                                <img src="#" alt="Esther Alesi's picture" class="border-radius-6 w-100">
+                            </div> 
+                            <div class="col-12 col-lg-8 padding-eight-lr text-center text-lg-left lg-padding-nine-right md-padding-15px-lr wow fadeInRight" data-wow-delay="0.2s">
+                                <h6 class="alt-font text-medium font-weight-600 mb-0">Patience Adema</h6>
+                                <p class="text-small">Co-founder</p>
+                                <p class="width-90 mx-auto text-medium font-weight-400 d-inline-block 
+                                sm-width-90">
+                                     </p>
+                            </div>
+        
+                            
+                    </div>
+                    
+                    
+              
+                   
+
+                </div>
+
+
+              
+
+              
+                </div>
+
+
+               
+            </div>
+        </section>
+      
+
+        <!-- start contact section -->
+        <!-- start footer --> 
+        <footer class="footer-center-logo padding-five-tb sm-padding-30px-tb bg-extra-dark-gray">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- start copyright -->
+                     <div class="col-lg-6 col-md-5 text-medium text-white sm-margin-15px-bottom alt-font">
+                       Copyright &COPY; Ahava Development Initiative.
+                    </div>
+                    <!-- end copyright -->
+                    -<!-- start logo -->
+                   
+                    <!-- end logo -->
+                    <!-- start social media -->
+                    <div class="col-lg-6 col-md-5 text-center">
+                        <div class="social-icon-style-8 d-inline-block vertical-align-middle">
+                            <ul class="small-icon mb-0">
+                               <li><a class="facebook text-white" href="#" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a class="twitter text-white" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="linkedin text-white" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a class="instagram text-white" href="#" target="_blank"><i class="fab fa-instagram mr-0" aria-hidden="true"></i></a></li>
+                                 <li><a class="instagram text-white"  href="mailto:info@ahavadevinit.org" target="_blank"><i class="fa fa-envelope mr-0" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end social media -->
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+        <!-- start scroll to top -->
+        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+        <!-- end scroll to top -->
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/skrollr.min.js"></script>
+        <script type="text/javascript" src="js/smooth-scroll.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <!-- menu navigation -->
+        <script type="text/javascript" src="js/bootsnav.js"></script>
+        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <!-- animation -->
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <!-- page scroll -->
+        <script type="text/javascript" src="js/page-scroll.js"></script>
+        <!-- swiper carousel -->
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <!-- counter -->
+        <script type="text/javascript" src="js/jquery.count-to.js"></script>
+        <!-- parallax -->
+        <script type="text/javascript" src="js/jquery.stellar.js"></script>
+        <!-- magnific popup -->
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <!-- portfolio with shorting tab -->
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <!-- images loaded -->
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <!-- pull menu -->
+        <script type="text/javascript" src="js/classie.js"></script>
+        <script type="text/javascript" src="js/hamburger-menu.js"></script>
+        <!-- counter -->
+        <script type="text/javascript" src="js/counter.js"></script>
+        <!-- fit video -->
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+
+        <!-- skill bars -->
+        <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
+        <!-- justified gallery -->
+        <script type="text/javascript" src="js/justified-gallery.min.js"></script>
+        <!--pie chart-->
+        <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+        <!-- instagram -->
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
+        <!-- retina -->
+        <script type="text/javascript" src="js/retina.min.js"></script>
+        <!-- revolution -->
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+        <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+        <!-- setting -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+
+
+
+</html>
